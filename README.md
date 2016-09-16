@@ -1,4 +1,31 @@
 ![the logo](http://i.imgur.com/IizTjez.png)
+GameBatch is a very simple yet advanced (a little?) under-the-hood library made with Java and C++.
+It is designed for Batch game developers to make games easier as GameBatch will use Box2D for 2D physics, and 3D physics will **probably** be implemented.
+
+#### Installation
+GameBatch will consist of 3 files:
+* The DLL Files (One for 32 bit systems, the other for 64 bit.)
+* The EXE File
+The EXE file (gamebatch.exe) is created with Java and will use the DLL files (created with C++) to manipulate the console in many ways.
+
+#### Why should I use GameBatch?
+GameBatch should be used because of it's simple syntax:
+```
+REM The math argument calls a very simple math evaluator
+REM Why should you use this? Because native Batch does not support arithmetic operations on floating-point numbers.
+gamebatch math test 5 / 2
+REM The following command takes the output.
+set /p theResult=<%TEMP%\GAMEBATCH
+```
+
+#### It is currently slow.
+GameBatch operates on one server being created with ```gamebatch simpleinit``` or ```gamebatch advinit```.
+Almost all other commands connect to the server and immediately close the connection.
+This unfortunately is a very hacky way of doing things and it's speed will be increased soon.
+
+
+
+# How to use
 
 GameBatch has a simple syntax that couldn't be simpler (Because of Batch's limitations)!
 
