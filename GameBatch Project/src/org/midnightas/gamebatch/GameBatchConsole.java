@@ -1,10 +1,6 @@
 package org.midnightas.gamebatch;
 
 public class GameBatchConsole {
-
-	/*
-	 * The C++ file will be shown only by request.
-	 */
 	
 	public static native void clear();
 
