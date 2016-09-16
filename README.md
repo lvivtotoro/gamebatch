@@ -1,3 +1,5 @@
+![the logo](http://i.imgur.com/IizTjez.png)
+
 GameBatch has a simple syntax that couldn't be simpler (Because of Batch's limitations)!
 
 ## The 2 server builds
